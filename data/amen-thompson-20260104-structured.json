@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "fileName": "训练_阿门1月4日 .mp4",
+    "durationSeconds": 22.895,
+    "video": "1920x1080, H.264, 59.94 fps",
+    "scope": "单个进攻回合的画面观察",
+    "notice": "以下战术描述、位置坐标和质量标签由视频画面人工结构化得出，不是 NBA 官方深度赛场数据。"
+  },
+  "gameContext": {
+    "teams": ["Houston Rockets", "Dallas Mavericks"],
+    "period": 3,
+    "broadcastClockStart": "07:45",
+    "broadcastClockEnd": "07:23",
+    "scoreAtStart": "HOU 60 — 63 DAL"
+  },
+  "events": [
+    {
+      "timestamp": "00:00.0",
+      "time": "07:45",
+      "metric_phase": "crosscourt",
+      "ball_handler": "Amen Thompson",
+      "tag": "OFFENSE ENTRY",
+      "score": "HOU 60 — 63 DAL",
+      "type": "SETUP · HALF COURT",
+      "title": "火箭落入半场阵地，阿门位于左侧外线。",
+      "body": "火箭以五外/四外一内的空间站位启动回合。阿门·汤普森（1号）从左侧推进并观察防守对位，禁区内已有中锋站位牵制护筐者。",
+      "difficulty": "—",
+      "quality": "画面观察：未发生出手",
+      "clutch": "—",
+      "impact": "回合启动",
+      "caption": "第三节 7:45，火箭在左侧启动半场进攻。",
+      "script": "“火箭没有急着进入攻击动作。注意左侧的阿门，他先把防线拉开，等待第一拍配合形成错位。”",
+      "shot": "无出手",
+      "confidence": "high",
+      "players": [
+        ["A. Thompson #1", "左侧推进", 29, 62, "gravity"],
+        ["HOU #30", "右侧内线站位", 76, 55, ""],
+        ["DAL 防守", "人盯人落位", 54, 46, ""]
+      ],
+      "route": [29, 62, 42, 52]
+    },
+    {
+      "timestamp": "00:04.0",
+      "time": "07:41",
+      "metric_phase": "ball_handler",
+      "ball_handler": "Amen Thompson",
+      "tag": "FIRST ACTION",
+      "score": "HOU 60 — 63 DAL",
+      "type": "SETUP · BALL REVERSAL",
+      "title": "第一拍进攻向左侧展开，防守保持收缩。",
+      "body": "球在左侧外线活动，独行侠的弱侧防守脚步仍朝禁区内侧倾斜。阿门移动到左侧，准备接回球权或参与二次攻击。",
+      "difficulty": "—",
+      "quality": "画面观察：组织阶段",
+      "clutch": "—",
+      "impact": "创造二次进攻空间",
+      "caption": "球在左侧外线流转，防守重心仍在油漆区附近。",
+      "script": "“这次转移没有直接创造空位，但它迫使独行侠的防线横移，为第二拍单打预留了空间。”",
+      "shot": "无出手",
+      "confidence": "medium",
+      "players": [
+        ["A. Thompson #1", "左侧准备接球", 39, 66, ""],
+        ["DAL #00", "外线对位", 42, 48, "gravity"],
+        ["HOU #30", "右侧内线牵制", 75, 56, ""]
+      ],
+      "route": [39, 66, 52, 51]
+    },
+    {
+      "timestamp": "00:10.0",
+      "time": "07:35",
+      "metric_phase": "ball_handler",
+      "ball_handler": "Amen Thompson",
+      "tag": "CLOCK PRESSURE",
+      "score": "HOU 60 — 63 DAL",
+      "type": "PRESSURE · LATE CLOCK",
+      "title": "回合进入最后 8 秒，火箭开始寻找终结点。",
+      "body": "球在左侧形成单侧进攻，弱侧三名球员保持拉开。随着进攻时间下降，防守人更靠近持球区域，禁区附近形成潜在协防拥堵。",
+      "difficulty": "—",
+      "quality": "画面观察：进攻时间低于 8 秒",
+      "clutch": "—",
+      "impact": "迫使持球人快速决策",
+      "caption": "进攻时间进入末段，弱侧保持空间，强侧准备单打。",
+      "script": "“时间开始压缩，火箭把选择交给左侧持球点。此时任何一次横移都可能给防守人制造追防距离。”",
+      "shot": "无出手",
+      "confidence": "high",
+      "players": [
+        ["A. Thompson #1", "左侧外线", 39, 66, ""],
+        ["DAL #3", "协防观察", 49, 56, "gravity"],
+        ["HOU #30", "篮下牵制", 76, 55, ""]
+      ],
+      "route": [39, 66, 49, 58]
+    },
+    {
+      "timestamp": "00:15.0",
+      "time": "07:30",
+      "metric_phase": "shoot",
+      "ball_handler": "Amen Thompson",
+      "tag": "PULL-UP",
+      "score": "HOU 60 — 63 DAL",
+      "type": "SHOT · CONTESTED MID-RANGE",
+      "title": "阿门左侧持球突破，急停中距离出手。",
+      "body": "阿门·汤普森在左侧弧顶/肘区接球，借短距离突破向中路推进。两名独行侠防守人向持球点合围，他在进攻时间将尽时急停起跳。",
+      "difficulty": "高（画面判断）",
+      "quality": "受干扰中距离；官方预期命中率未提供",
+      "clutch": "—",
+      "impact": "进攻时间 4.5 秒时启动终结",
+      "caption": "阿门在左侧启动，面对合围选择急停中距离。",
+      "script": "“阿门在时间压力下从左侧发起，第二名协防已经靠近。他没有完全摆脱干扰，只能用急停中距离完成这次终结。”",
+      "shot": "急停中距离跳投 · 画面显示受干扰",
+      "outcome": "missed",
+      "confidence": "high",
+      "players": [
+        ["A. Thompson #1", "持球急停", 44, 56, "shooter"],
+        ["DAL #00", "主防干扰", 48, 53, "gravity"],
+        ["DAL #3", "协防收缩", 54, 55, "gravity"],
+        ["HOU #30", "篮下卡位", 76, 57, ""]
+      ],
+      "route": [39, 66, 47, 55]
+    },
+    {
+      "timestamp": "00:19.5",
+      "time": "07:26",
+      "metric_phase": "possession_end",
+      "ball_handler": null,
+      "tag": "DEFENSIVE REBOUND",
+      "score": "HOU 60 — 63 DAL",
+      "type": "OUTCOME · POSSESSION ENDS",
+      "title": "投篮未命中，独行侠收下防守篮板。",
+      "body": "篮球未命中后落入禁区，独行侠在篮下完成保护并取得球权。转播计时显示进攻时间重置，说明这次火箭进攻回合结束。",
+      "difficulty": "—",
+      "quality": "出手结果：未命中",
+      "clutch": "—",
+      "impact": "回合结束，球权转换",
+      "caption": "出手未命中，独行侠收下防守篮板，火箭回合结束。",
+      "script": "“这球在合围下偏出，独行侠守住篮板。火箭的这一回合最终没有把空间优势转化为得分。”",
+      "shot": "未命中 · 防守篮板",
+      "outcome": "defensive_rebound_dal",
+      "confidence": "high",
+      "players": [
+        ["DAL 篮板球员", "控制篮板", 71, 56, "gravity"],
+        ["HOU #30", "篮下争抢", 68, 59, ""],
+        ["A. Thompson #1", "左侧回防", 41, 61, ""]
+      ],
+      "route": [46, 54, 70, 56]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+
+# 原始和生成的视频素材通过部署存储提供，不提交到源码仓库。
+output/
+*.mp4
+*.mov
+*.webm
