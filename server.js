@@ -5,7 +5,7 @@ import path from 'node:path';
 const root = path.resolve('public');
 const structuredData = path.resolve('data/amen-thompson-20260104-structured.json');
 const metricsData = path.resolve('data/rockets_2026_metrics.json');
-const trainingVideo = '/Users/bobzheng/Downloads/train_video/训练_阿门1月4日 .mp4';
+const trainingVideo = path.resolve('public/media/single.mp4');
 const renderedVideo = path.resolve('output/amen-thompson-structured-overlay.mp4');
 const cache = new Map();
 http.createServer(async (req, res) => {
